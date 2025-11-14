@@ -106,12 +106,4 @@ MIT License
 
 ---
 
-## Contributing
 
-Contributions are welcome! Feel free to open issues or submit pull requests.
-
----
-
-## Contact
-
-For questions or collaboration opportunities, please open an issue in the repository.
