@@ -14,19 +14,6 @@ A hybrid deep learning model that classifies ECG signals by combining **Convolut
 
 ---
 
-## Project Structure
-
-```
-ECG_CNN_LSTM/
-├── ECG_CNN_LSTM.ipynb         # Main notebook with complete pipeline
-├── data/                       # ECG signals (post-preprocessing)
-├── models/                     # Saved model checkpoints
-├── README.md                   # Documentation
-└── requirements.txt            # Python dependencies
-```
-
----
-
 ## Model Architecture
 
 ### CNN Blocks
