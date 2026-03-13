@@ -4,16 +4,6 @@ A hybrid deep learning model that classifies ECG signals by combining **Convolut
 
 ---
 
-## Features
-
-- **Hybrid CNN–LSTM architecture** combining spatial and temporal modeling
-- **PyTorch implementation** with modular, readable code
-- **Complete preprocessing pipeline** for ECG signal processing
-- **Comprehensive evaluation** with accuracy metrics, confusion matrices, and classification reports
-- **Visualization tools** for ECG signals, training curves, and model performance
-
----
-
 ## Model Architecture
 
 ### CNN Blocks
@@ -27,30 +17,6 @@ Maps learned features to final arrhythmia class predictions.
 
 ---
 
-## Dataset
-
-**MIT-BIH Arrhythmia Database**
-- 48 half-hour ECG recordings
-- Annotated heartbeat classifications
-- Standard benchmark for cardiac arrhythmia research
-
-Download and preprocess the dataset before training.
-
----
-
-## Getting Started
-
-### Installation
-
-```bash
-pip install -r requirements.txt
-```
-
-### Running the Project
-
-```bash
-jupyter notebook ECG_CNN_LSTM.ipynb
-```
 
 Execute all cells sequentially to:
 1. Preprocess the data
@@ -90,15 +56,6 @@ Typical performance metrics:
 
 ---
 
-## Future Enhancements
-
-- Refactor notebook into production-ready Python package
-- Implement GRU-based architecture for comparison
-- Deploy with FastAPI backend and Streamlit frontend
-- Export to ONNX for edge device deployment
-- Add real-time ECG classification capabilities
-
----
 
 ## License
 
